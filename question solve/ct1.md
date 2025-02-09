@@ -1,5 +1,4 @@
-#Section D
-#Section D
+##Section_D
 1. (a) Guess the Output:
 Given:
 
