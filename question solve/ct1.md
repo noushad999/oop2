@@ -1,5 +1,5 @@
 # Section C 
-# Python Exercises
+# Set 1
 
 ## 1. List Slicing and Operations
 
