@@ -192,7 +192,6 @@ elif count_odd >= count_even:
     print("More odds")
 ```
 
-### Set 2
 **Output:**
 ```
 Even count: 5, Odd count: 5
