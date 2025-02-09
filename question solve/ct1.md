@@ -94,8 +94,6 @@ Longest word(s): ['grapefruit']
 
 # Set 2
 
-# Python Exercises
-
 ## 1. (a) Guess the Output
 
 Given:
