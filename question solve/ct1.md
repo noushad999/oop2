@@ -1,3 +1,106 @@
+# Section C 
+# Python Exercises
+
+## 1. List Slicing and Operations
+
+Given:
+```python
+my_list = [5, 10, 15, 20, 25, 30, 35, 40, 45]
+```
+
+### (a) Obtain `[10, 25, 40]` using slicing:
+```python
+output1 = my_list[1::3]
+print(output1)
+```
+**Output:**
+```
+[10, 25, 40]
+```
+
+### (b) Obtain `[45, 40, 35]` using slicing:
+```python
+output2 = my_list[-1:-4:-1]
+print(output2)
+```
+**Output:**
+```
+[45, 40, 35]
+```
+
+### (c) What is the output of:
+```python
+print(my_list.pop() == my_list[-1])
+```
+**Execution:**
+- `my_list.pop()` removes and returns `45`.
+- `my_list[-1]` now refers to `40`.
+- Since `45 != 40`, the output is:
+```
+False
+```
+
+### (d) Sum of all elements in `my_list`:
+```python
+sum_list = sum(my_list)
+print(sum_list)
+```
+
+### (e) Obtain substring `"World"` from `my_string`:
+```python
+my_string = "Hello, World!"
+substring = my_string[7:12]
+print(substring)
+```
+**Output:**
+```
+World
+```
+
+---
+
+## 2. Voting Eligibility Check
+
+```python
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Eligible to vote.")
+else:
+    years_left = 18 - age
+    print(f"Not eligible. You need {years_left} more years.")
+```
+
+### Example Outputs:
+- **Input:** `20` → **Output:** `Eligible to vote.`
+- **Input:** `16` → **Output:** `Not eligible. You need 2 more years.`
+
+---
+
+## 3. Counting Even and Odd Numbers in a List
+
+```python
+numbers = [12, 7, 5, 8, 14, 9, 22, 13, 18, 21]
+
+count_even = sum(1 for num in numbers if num % 2 == 0)
+count_odd = len(numbers) - count_even
+
+print(f"Even count: {count_even}, Odd count: {count_odd}")
+
+if count_even > count_odd:
+    print("More evens")
+elif count_odd >= count_even:
+    print("More odds")
+```
+
+### Example Execution:
+**Output:**
+```
+Even count: 5, Odd count: 5
+More odds
+```
+
+
+
 # Section D -
 
 # Set 1
