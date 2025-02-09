@@ -99,7 +99,7 @@ Even count: 5, Odd count: 5
 More odds
 ```
 
-# Python Exercises
+# Set 2
 
 ## 1. List Slicing and Operations
 
